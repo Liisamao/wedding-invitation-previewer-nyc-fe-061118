@@ -1,0 +1,130 @@
+@media only screen and (max-width: 1207px) {
+    .gridcontainer {
+        background: blue;
+        display: block;
+        /*grid-template-columns: auto;*/
+    }
+}
+.wrapper {
+  width:80%;
+  background-color: #ffedf1;
+  margin:auto;
+}
+body{
+  background-color:#fff4f7;
+  border-radius:10px;
+}
+.gridcontainer{
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto;
+  background-color: #fff4f7;
+}
+
+#default {
+  background-image: url("http://i1043.photobucket.com/albums/b432/wanderlustts/Screen%20Shot%202018-08-14%20at%201.44.15%20PM_zpslpsidwv0.png");
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+#romance{
+  background-image: url("http://i1043.photobucket.com/albums/b432/wanderlustts/Screen%20Shot%202018-08-14%20at%201.44.40%20PM_zpsj5k7myh4.png");
+  background-repeat: no-repeat;
+  height: 600px;
+}
+#rustic{
+  background-image: url("http://i1043.photobucket.com/albums/b432/wanderlustts/Screen%20Shot%202018-08-14%20at%201.44.27%20PM_zps5ugwyvpw.png");
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+#maintitle{
+  text-align:center;
+  font-size:30px;
+  color:#bcbcbc;
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-weight: 200; 
+}
+.btn {
+    background-color: #ffadbf; 
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 5px 50px;
+    margin-bottom:5px;
+    width:170px;
+    text-decoration: none;
+    font-size: 18px;
+    outline:none;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 200; 
+}  
+.btn:hover {
+    background-color: #ff91a9;
+    color: white;
+}
+input[type="text"]{
+  border:2px solid #ffadbf;
+  border-radius:10px;
+  width:30%;
+  padding:15px 25px;
+  outline:none;
+  font-size:15px;
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-weight: 200; 
+}
+input[type="text"]:focus{
+  background-color: #ffadbf;
+}
+.inputtitle{
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-weight: 200; 
+  padding:5px;
+  color:#7a7a7a;
+}
+.rightcolumn{
+  position:relative;
+  display:inline-block;
+  text-align:center;
+}
+form{
+position:absolute;
+padding-left:25px;
+display:inline-block;
+width:100%;
+}
+#nameone{
+  position: relative;
+  font-size:25px;
+  text-align:center;
+  top:34%;
+  opacity:0.7;
+}
+#nametwo{
+  position: relative;
+  top:37%;
+  font-size:25px;
+  text-align:center;
+  opacity:0.7;
+}
+#namethree{
+  position: relative;
+  top:38%;
+  font-size:32px;
+  text-align:center;
+  opacity:0.7;
+}
+#namefour{
+  position: relative;
+  font-size:20px;
+  top:60%;
+  text-align:center;
+  opacity:0.7;
+}
+#namefive{
+  position: relative;
+  top:40%;
+  font-size:25px;
+  text-align:center;
+  opacity:0.7;
+}
